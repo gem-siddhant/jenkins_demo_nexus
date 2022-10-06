@@ -15,7 +15,7 @@ spec:
         app: web-app
     spec:
       imagePullSecrets: 
-        - name: newsecretkey1
+      - name: newsecretkey1
       containers:
       - name: web-app
         imagePullPolicy: Always
