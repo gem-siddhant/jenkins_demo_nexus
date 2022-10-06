@@ -14,6 +14,8 @@ spec:
       labels:
         app: web-app
     spec:
+      imagePullSecrets: 
+        - name: dockersecret
       containers:
       - name: web-app
         imagePullPolicy: Always
