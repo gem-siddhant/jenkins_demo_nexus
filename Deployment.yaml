@@ -19,7 +19,7 @@ spec:
       containers:
       - name: web-app
         imagePullPolicy: Always
-        image: 127.0.0.1:9001/web-app
+        image: http://127.0.0.1:9001/web-app
         ports:
         - containerPort: 8082
           containerPort: 9001
